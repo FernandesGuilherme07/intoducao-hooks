@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import './styles.css'
 
 const eventFn = () => {
   console.log('h1 clicado');
@@ -29,7 +30,7 @@ export const HookUseEffect = () => {
   }, [counter, counter2]);
 
   return (
-    <div className="App">
+    <div className="useeffect">
       <p>Teste 3</p>
       <h1>
         C1: {counter} C2: {counter2}{' '}
