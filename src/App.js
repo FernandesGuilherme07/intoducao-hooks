@@ -17,7 +17,7 @@ function App() {
       <HookUseCallback/>
       <h1 className='haeders-components'>HookUseMemo</h1>
       <HookUseMemo/>
-      <h1 className='headers-components'>HookUseRef</h1>
+      <h1 className='haeders-components'>HookUseRef</h1>
       <HookUseRef/>
 
     </>

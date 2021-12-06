@@ -1,6 +1,6 @@
 import P from 'prop-types';
 import { useEffect, useMemo, useState, useRef } from 'react';
-import './App.css';
+import './styles.css'
 
 const Post = ({ post, handleClick }) => {
   console.log('Filho renderizou');
